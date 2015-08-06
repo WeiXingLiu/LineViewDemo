@@ -14,6 +14,7 @@
 		9534C3801B7351CF0038D5FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9534C37F1B7351CF0038D5FC /* Images.xcassets */; };
 		9534C3831B7351CF0038D5FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9534C3811B7351CF0038D5FC /* LaunchScreen.xib */; };
 		9534C38F1B7351CF0038D5FC /* LineViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9534C38E1B7351CF0038D5FC /* LineViewDemoTests.m */; };
+		9534C39A1B7351E00038D5FC /* LWXView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9534C3991B7351E00038D5FC /* LWXView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		9534C3881B7351CF0038D5FC /* LineViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LineViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9534C38D1B7351CF0038D5FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9534C38E1B7351CF0038D5FC /* LineViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineViewDemoTests.m; sourceTree = "<group>"; };
+		9534C3981B7351E00038D5FC /* LWXView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LWXView.h; path = ../LWXView.h; sourceTree = "<group>"; };
+		9534C3991B7351E00038D5FC /* LWXView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LWXView.m; path = ../LWXView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		9534C3711B7351CF0038D5FC /* LineViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9534C3981B7351E00038D5FC /* LWXView.h */,
+				9534C3991B7351E00038D5FC /* LWXView.m */,
 				9534C3761B7351CF0038D5FC /* AppDelegate.h */,
 				9534C3771B7351CF0038D5FC /* AppDelegate.m */,
 				9534C3791B7351CF0038D5FC /* ViewController.h */,
@@ -221,6 +226,7 @@
 			files = (
 				9534C37B1B7351CF0038D5FC /* ViewController.m in Sources */,
 				9534C3781B7351CF0038D5FC /* AppDelegate.m in Sources */,
+				9534C39A1B7351E00038D5FC /* LWXView.m in Sources */,
 				9534C3751B7351CF0038D5FC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
